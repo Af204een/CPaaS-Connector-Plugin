@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Temporary Python files
+__pycache__/
+*.py[cod]
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Local exports and message history
+cpaas_messages.xlsx
+cpaas_orders.xlsx
+message_history.txt
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor settings
+.vscode/
+.idea/
